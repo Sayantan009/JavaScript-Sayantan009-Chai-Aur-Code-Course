@@ -41,11 +41,42 @@ const func = () => {
 //     null: "object",
 //     undefined: " undefined",
 //     Symbol: " symbol",
-//     BigInt: " bigint}"
+//     BigInt: " bigint"
 // }
 
 // const NonPrimitiveDatatypesOutput = {
 //     Arrays: " object",
 //     Function: " function",
-//     Object: " object}"
+//     Object: " object"
 // }
+
+
+
+
+
+// ************************* Memory *************************
+// Stack (Primitive), Heap (Non-Primitive)
+// Stack (Primitive) - It gives us a copy of our value. So if we change the referace will remail the same.
+// Heap (Non-Primitive) - It gives us referance. So if we change it, the original value will change.
+
+let myYtMain = "CodeWithHarry"
+let anotherName = myYtMain
+
+anotherName = "ProgrammingWithHarry"
+
+console.log(myYtMain);
+console.log(anotherName);
+
+////////////////////////////////////////////
+
+let userOne = {
+    email: "userOne@gmail.com",
+    upi: "userOne@ybl"
+}
+
+let userTwo = userOne
+
+userTwo.email = "hitesh@gmail.com"
+
+console.log(userOne);
+console.log(userTwo);
