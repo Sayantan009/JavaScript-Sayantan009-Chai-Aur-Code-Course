@@ -64,3 +64,32 @@ console.log(Object.values(tinderUser));
 console.log(Object.entries(tinderUser));
 
 console.log(tinderUser.hasOwnProperty('isLoggedIn'));
+
+
+
+
+// ******************************************************************************
+const course= {
+    courseName: 'Js in Hindi',
+    coursePrice: '999',
+    courseInstructor: 'Hitesh'
+}
+
+// console.log(course.courseInstructor);
+
+// obj destructuring
+const {courseInstructor: instructor} = course
+console.log(instructor);
+
+// const navbar = ({company}) => {
+
+// }
+
+// navbar(company = 'hitesh')
+
+// API
+// {
+//     coursename: 'Js in Hindi',
+//     price: '999',
+//     Instructor: 'Hitesh'
+// }
