@@ -69,32 +69,15 @@ Before starting this course, it is recommended to have a basic understanding of 
     - Design patterns
     - Functional programming concepts
 
-## Getting Started
+Getting Started
+To get started with the course, visit the JavaScript Chai Aur Code Course repository and follow the instructions provided in the README.
 
-To get started with the course, follow these steps:
-
-1. Clone the repository to your local machine.
-   ```bash
-   git clone https://github.com/your-username/javascript-course.git
-   ```
-
-2. Navigate to the course directory.
-   ```bash
-   cd javascript-course
-   ```
-
-3. Open the course materials in your preferred text editor or IDE.
-
-4. Begin with the introductory materials and progress through the course modules.
-
-## Contributing
-
+Contributing
 If you find any issues, errors, or have suggestions for improvement, feel free to open an issue or submit a pull request. Contributions from the community are highly encouraged!
 
-Please read the [Contribution Guidelines](CONTRIBUTING.md) before making any contributions.
+Please read the Contribution Guidelines before making any contributions.
 
-## License
-
-This JavaScript Course is licensed under the MIT License - see the [LICENSE](LICENSE) file for details. Feel free to use, share, and modify the content as needed.
+License
+This JavaScript Course is licensed under the MIT License - see the LICENSE file for details. Feel free to use, share, and modify the content as needed.
 
 Happy coding! 🚀
