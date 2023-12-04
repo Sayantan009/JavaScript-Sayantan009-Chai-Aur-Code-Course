@@ -33,9 +33,9 @@
 
 // myLi.forEach((item)=>item.style.backgroundColor = 'black')
 
-const tempClassList = document.getElementsByClassName("list-item")
+// const tempClassList = document.getElementsByClassName("list-item")
 
-const tempClassListArr = Array.from(tempClassList)
-console.log(tempClassListArr);
-tempClassListArr.map((item)=>item.style.color = 'red')
-tempClassListArr.forEach((item)=>item.style.color = 'orange')
+// const tempClassListArr = Array.from(tempClassList)
+// console.log(tempClassListArr);
+// tempClassListArr.map((item)=>item.style.color = 'red')
+// tempClassListArr.forEach((item)=>item.style.color = 'orange')
