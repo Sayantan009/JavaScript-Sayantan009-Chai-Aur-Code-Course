@@ -25,7 +25,7 @@ const dayOne = document.querySelector('.day')
 // const firstH1 = document.createElement('h1')
 // console.log(firstH1);
 const firstDiv = document.createElement('div')
-console.log(firstDiv);
+// console.log(firstDiv);
 firstDiv.className = 'box'
 firstDiv.id = Math.round(Math.random()*10+1)
 firstDiv.setAttribute('title', 'generate')
