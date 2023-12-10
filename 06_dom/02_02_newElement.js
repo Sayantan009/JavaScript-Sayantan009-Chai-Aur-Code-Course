@@ -33,3 +33,4 @@ firstDiv.style.backgroundColor = 'green'
 firstDiv.innerHTML = "I am created with DOM"
 const addTxt = document.createTextNode("Chai aur code")
 firstDiv.appendChild(addTxt)
+document.body.appendChild(firstDiv)
