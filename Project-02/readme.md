@@ -26,3 +26,5 @@ bmi-calculator/
 |-- index.html
 |-- style.css
 |-- script.js
+
+## Project Done
